@@ -1,0 +1,7 @@
+const now8 = new Date()
+const year1 = now8.getFullYear()
+const month = now8.getMonth() + 1 
+const date = now8.getDate() 
+const hours = now8.getHours() 
+const minutes = now8.getMinutes() 
+console.log(`${date}/${month}/${year} ${hours}:${minutes}`)
