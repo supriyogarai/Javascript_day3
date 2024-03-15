@@ -1,0 +1,96 @@
+let base = (prompt("Enter the base:"))
+let height = (prompt("Enter the height:"))
+let area = 0.5 * base * height
+console.log("The area of the triangle is:", area);
+
+let a = (prompt("Enter side a :"))
+let b = (prompt("Enter side b:"))
+let v = (prompt("Enter side c:"))
+let p = a+b+c
+console.log("The perimeter of the triangle is:", p);
+
+let len = (prompt("Enter the length:"))
+let br = (prompt("Enter the breadth:"))
+let area = len*br
+let peri = 2*(len+br)
+console.log("The area of the rectangle is:", area);
+console.log("The perimeter of the rectangle is:", peri);
+
+let pi = 3.14
+let rad = (prompt("Enter the radius:"))
+let area = pi*r*r
+let circumference = 2*pi*r
+console.log("The area of the circle is:", area);
+console.log("The circumference of the circle is:", circumference);
+
+let x = (prompt("Enter x-intercept:"))
+let y = (prompt("Enter y-intercept:"))
+let m = (y+2)/x
+console.log("The slope of eqn is:", m);
+
+let x1 =2
+let x2 =2
+let y1 =6
+let y2 =10
+let m = (y2-y1)/(x2-x1)
+console.log("The slope of eqn is:", m);
+
+let hour = (prompt("Enter the no. of hours:"))
+let rate = (prompt("Enter the rate per hour:"))
+let pay = hour*rate
+console.log("Your weekly earning is:", pay);
+
+let name = (prompt("Enter your name:"))
+let len = name.length
+len > 7
+? console.log(`name is long`)
+: console.log(`name is short`)
+
+let firstName = 'Asabeneh'
+let lastName = 'Yetayeh'
+let len1 = firstName.length
+let len2 = lastName.length
+len1>len2
+? console.log(`Your first name, Asabeneh is longer than your family name, Yetayeh`)
+: console.log(`.....`)
+
+let myAge = 250
+let yourAge = 25
+let age= myAge - yourAge
+console.log('I am', age, ' years older than you.')
+
+let birth = (prompt("Enter your year of birth:"))
+const now1 = new Date()
+let year = now1.getFullYear()
+age = year - birth
+age > 18
+? console.log(`You are old enough to drive`)
+: console.log('You will be allowed to drive after',(18 -age) , 'years')
+
+let year = (prompt("Enter number of years you live:"))
+z=year*365*24*60*60
+console.log('You lived', z ,'' seconds.'');
+
+const now = new Date()
+const year = now.getFullYear() // return year
+const month = now.getMonth() + 1 // return month(0 - 11)
+const date = now.getDate() // return date (1 - 31)
+const hours = now.getHours() // return number (0 - 23)
+const minutes = now.getMinutes() // return number (0 -59)
+console.log(`${year}-${month}-${date}} ${hours}:${minutes}`)
+
+const now = new Date()
+const year = now.getFullYear() // return year
+const month = now.getMonth() + 1 // return month(0 - 11)
+const date = now.getDate() // return date (1 - 31)
+const hours = now.getHours() // return number (0 - 23)
+const minutes = now.getMinutes() // return number (0 -59)
+console.log(`${date}-${month}-${year} ${hours}:${minutes}`)
+
+const now = new Date()
+const year = now.getFullYear() // return year
+const month = now.getMonth() + 1 // return month(0 - 11)
+const date = now.getDate() // return date (1 - 31)
+const hours = now.getHours() // return number (0 - 23)
+const minutes = now.getMinutes() // return number (0 -59)
+console.log(`${date}/${month}/${year} ${hours}:${minutes}`)
